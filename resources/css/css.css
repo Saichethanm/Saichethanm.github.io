@@ -22,8 +22,7 @@ nav{
 
 .container{
   padding: 2%;
-  /* background-color:#e4f0e4; */
-  background-image: url("/home/saichm/Downloads/pexels-lorenzo-242236.jpg");
+  background-color: #e4e8e5 ;
 }
 
 /* ul {
@@ -39,6 +38,8 @@ nav{
 
 ul {
   list-style-type: none;
+  /* border: 1px black solid; */
+  box-shadow: 1px 1px 1px 1px #888888;
   padding: 0;
 }
 
