@@ -76,6 +76,10 @@ li a:hover:not(.active) {
 
 @media screen and (max-width: 680px) {
 
+  body{
+    background-color: #e4e8e5;
+  }
+  
   .container header h1{
     color: blue;
     font-weight: 800;
