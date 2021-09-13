@@ -64,3 +64,39 @@ li a:hover:not(.active) {
   background-color: #04AA6D;
   border: 0.1px black solid;
 }
+
+.aboutMe img{
+  height: 10em;
+  width: 10em;
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+@media screen and (max-width: 680px) {
+   ul {
+    list-style-type: none;
+    /* background-color: #f1f1f1; */
+    width: 190px;
+  }
+  
+  li{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: none;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    border: 0.1px black solid;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #04AA6D;
+  border: 0.1px black solid;
+  }
+}
