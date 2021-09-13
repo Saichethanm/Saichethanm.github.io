@@ -13,7 +13,6 @@ header h1{
 body {
   margin-left: 10%;
   margin-right: 10%;
-  /* font-family: 'Raleway', sans-serif; */
 }
 
 nav{
@@ -23,22 +22,15 @@ nav{
 .container{
   padding: 2%;
   background-color: #e4e8e5 ;
+  font-family: 'Raleway', sans-serif;
 }
 
-/* ul {
-  list-style-type: none;
-  margin-top: 40px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-} */
+main{
+  padding: 0% 4% ;
+}
 
 ul {
   list-style-type: none;
-  /* border: 1px black solid; */
   box-shadow: 1px 1px 1px 1px #888888;
   padding: 0;
 }
@@ -54,6 +46,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 li a:hover:not(.active) {
   background-color: #04AA6D;
@@ -73,7 +66,53 @@ li a:hover:not(.active) {
   margin-bottom: 10%;
 }
 
+/****  About me page *****/
+#aboutMe{
+  margin: 0;
+}
 
+figure{
+  margin-left: 0;
+}
+
+
+/****  Contact me page *****/
+table{
+  padding: 2%;
+  font-weight: bold;
+}
+
+input{
+  height: 2em;
+  border: green solid 1px;
+  outline:none;
+}
+
+input:focus{
+  border: blue solid 2px;
+}
+
+textarea{
+  border: green solid 1px;
+}
+
+textarea:focus{
+  border: blue solid 2px;
+}
+
+#submit{
+  background-color: #007bff;
+  border: #007bff 1px solid;
+  border-radius: 2px;
+  color: white;
+  height: 3em;
+  width: 6em;
+  padding: 10%;
+}
+
+
+
+/** Mobile devices **/
 @media screen and (max-width: 680px) {
 
   body{
@@ -83,28 +122,38 @@ li a:hover:not(.active) {
   .container header h1{
     color: blue;
     font-weight: 800;
+    font-family: 'Raleway', sans-serif;
     font-size: -webkit-xxx-large;
   }
 
-   ul {
+  ul {
     list-style-type: none;
-    /* background-color: #f1f1f1; */
-    width: 190px;
+    width: 100vw;
   }
-  
+
   li{
+    width: 80vw;
+  }
+
+  li a {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    float: none;
+  }
+  
+  
+  li a:hover:not(.active) {
+    background-color: #04AA6D;
+    border: 0.1px black solid;
   }
   
   .active {
     background-color: #04AA6D;
     border: 0.1px black solid;
   }
+
   
   li a:hover:not(.active) {
     background-color: #04AA6D;
