@@ -66,6 +66,28 @@ li a:hover:not(.active) {
   margin-bottom: 10%;
 }
 
+
+/*** My gallery ***/
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item{
+  margin-left: 0.15%;
+  width: 33%;
+  height: 25em;
+}
+
+.flex-item img{
+  height: 90%;
+  width: 90%;
+  border: rgb(161, 161, 161) 2px solid;
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+
+
 /****  About me page *****/
 #aboutMe{
   margin: 0;
